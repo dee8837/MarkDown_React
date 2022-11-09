@@ -1,0 +1,29 @@
+body{
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+
+}
+.center-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side,
+.right-side{
+  height: 100vh;
+  border: 1px solid black;
+  font-size: 25px;
+  padding: 1rem;
+  width: 100%;
+
+}
+.left-side{
+  background-color: black;
+  color: aliceblue;
+  overflow-x: auto;
+  max-width: 80vw;
+  
+  
+}
